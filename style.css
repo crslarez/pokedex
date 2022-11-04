@@ -56,6 +56,9 @@ body {
     gap: 20px;
 }
 
+.img-charizard {
+    width: 100%;
+}
 .title {
     background-color: white;
     display: flex;
@@ -95,6 +98,11 @@ body {
     align-items: center;
 }
 
+.row-item:hover{
+    cursor: pointer;
+    color: var(--purple)
+}
+
 .title-info{
     font-size: 20px;
 }
@@ -126,4 +134,17 @@ body {
     border-radius: 10px;
     margin: 10px;
 
+}
+/* Al pasar el cursor por encima del contenedor figure cambia de color*/
+.footer-content figure:hover {
+    cursor: pointer;
+    background-color: var(--purple);
+}
+
+.footer-content div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 65%;
 }
