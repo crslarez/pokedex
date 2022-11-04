@@ -89,12 +89,41 @@ body {
     align-items: center;
 }
 
-.row-items {
+.row-item {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .title-info{
+    font-size: 20px;
+}
+
+.info-text {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
     
+}
+
+.footer-content figure img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.footer-content figure {
+    padding: 15px;
+    background-color: var(--ligthpurple);
+    border-radius: 10px;
+    margin: 10px;
+
 }
